@@ -63,3 +63,8 @@ footer {
     color: white;
 
 }
+ #setDimension{
+ 	width: 960px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
