@@ -32,16 +32,18 @@
     width: 250px;
     min-height: 100px;
     min-width: 580px;
-    position: fixed;
-    margin: 65px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-bottom: 65px;
 }
 
 #rightcolumn {
     min-height: 194px; 
     width: 270px; 
-    margin: 60px;
     margin-left:750px; 
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 65px;
     
 }
 
@@ -67,8 +69,7 @@ p{
 
 footer {
 	background-color: #666;
-	height:10%;
-	position: fixed;
+	position: absolute;
   	right: 0;
     bottom: 0;
     left: 0;
@@ -80,6 +81,7 @@ footer {
  	width: 960px;
  	margin-left: auto;
  	margin-right: auto;
+ 	margin-top: 10px;
  	background-image: url(fabric_of_squares_gray.jpg);
  	background-repeat: repeat;
  }
