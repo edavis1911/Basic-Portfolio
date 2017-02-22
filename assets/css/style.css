@@ -2,22 +2,78 @@
 	border-color: #ccc;
 	font-family: "Georgia", "Times", "Times New Roman", Serif;
 	margin: 65px;
-	
+  width: 80%;
+  height: 100px;
+  background-color: #fff;
+  border-bottom: 10px
+  border-style:solid;
+  border-color: black;
+  font-size: 30px;
+
 }
 
+nav ul li{
+  display: inline;
+  padding: 1px 10px 1px 10px;
+  font-size: 20px;
+  border-right: 1px solid #000;
+}
+
+nav{
+  float:right;
+  border-right: 1px;
+  border-style: 
+}
+
+
+li{
+  background-size: 10px;
+}
+
+
+
+body{
+ /* width: 960px;*/
+ background-image:url("../images/seamless_paper_texture.png");
+ /* background-color: black;*/
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+}
+nav{
+  float: right;
+}
+
+
  h1 {
-	border:3px; 
+	float: left;
+  margin-left:20px;
 	background-color:#4aaaa5;
 	color: white; 
 	float: left; 
-	padding: 20px;
+	padding:35px;
 }
  
+h2{
+   margin-left:10px;
+   margin-right: 10px;
+   font-size: 20px;
+}
+
+h3{
+  font: 15px;
+  margin-left: 10px;
+}
+hr{
+  margin-left:10px;
+  margin-right: 10px;
+}
+
  .smaller-image {
 	 width: 300px;
-	 padding-right: 20px; 
-	 padding-bottom: 20px;
-}
+   padding: 0 20px 20px 20px;
+}	
 
 #leftcolumn, #rightcolumn {
     border: 1px solid white;
@@ -26,27 +82,34 @@
     border-color: #ddd;
     border-style: solid;
     background-color: #fff;
+    overflow: auto;
+    float: left;
+    margin-bottom: 65px;
 }
 
 #leftcolumn {
     width: 250px;
     min-height: 100px;
     min-width: 580px;
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 65px;
-    margin-bottom: 65px;
+    margin-left: 80px;
+ 
 }
 
 #rightcolumn {
     min-height: 194px; 
     width: 270px; 
-    margin-left:750px; 
-    margin-top: 30px;
-    margin-bottom: 65px;
+    margin-left:30px; 
     
 }
 
+.socialMedia img{
+  align-content: center;
+  height: 60px;
+  width: 60px;
+  padding: 0px;
+  margin: 1px 10px 1px 10px;
+  text-align: center;
+}
   img {
  	float: left;
 }
@@ -59,29 +122,21 @@
 p{
 	line-height: 200%;
 }
-  .vertical_line {
-	height:10px; 
-	width:100%;
-	background:#4aaaa5;
-	position: absolute;
-	padding-left: 0px;
+
+.vertical-line {
+  height:10px; 
+  background:#4aaaa5;
+  clear: both;
+  /*padding-left: 0px;*/
 }
 
-footer {
-	background-color: #666;
-	position: absolute;
-  	right: 0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    color: white;
 
+.footer{
+  background-color: #666;
+  border-color: #ccc;
+  color: white;
+  clear: both;
+  text-align: center; 
+  padding-bottom: 30px;
 }
- #setDimension{
- 	width: 960px;
- 	margin-left: auto;
- 	margin-right: auto;
- 	margin-top: 10px;
- 	background-image: url(fabric_of_squares_gray.jpg);
- 	background-repeat: repeat;
- }
+
